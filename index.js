@@ -50,7 +50,7 @@ function checkAns(currentLevel){
       setTimeout(function () {
         $("body").removeClass("game-over");
       }, 200);
-  $("#level-title").text("GAME OVER click anywhere then press any key to Restart");
+  $("#level-title").text("GAME OVER click+press any key to Restart");
 startOver();
 }
 
